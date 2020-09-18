@@ -1,0 +1,127 @@
+namespace Persondetails
+{
+    class Person
+    {
+        private string firstName;
+        private string LastName;
+        private string emailAddress;
+        private DateTime dob;
+
+        public Person(string firstName, string lastName, string emailAddress)
+        {
+            this.firstName = firstName;
+            this.LastName = lastName;
+            this.emailAddress = emailAddress;
+        }
+
+        public Person(string firstName, string lastName, string emailAddress, DateTime dob)
+        {
+            this.firstName = firstName;
+            this.LastName = lastName;
+            this.emailAddress = emailAddress;
+            this.Dob = dob;
+        }
+
+
+        //public string  Dob { get => dob.ToString(); set => dob = new DateTime(Convert.ToInt32(value.Substring(0, 4)), Convert.ToInt32(value.Substring(4, 2)), Convert.ToInt32(value.Substring(6, 2)); }
+
+        public string EmailAddress { get => emailAddress; set => emailAddress = value; }
+        public string LastName1 { get => LastName; set => LastName = value; }
+        public string FirstName { get => firstName; set => firstName = value; }
+        public DateTime Dob { get => dob; set => dob = value; }
+
+        public bool Adult
+        {
+            get
+            { 
+                if ((DateTime.Today.Year - dob.Year) >= 18)
+
+
+                    return true;
+
+
+
+                else
+                {
+                    return false;
+                }
+            }
+        }
+        public string SunSign
+        {
+            get
+            {
+                switch (dob.Month)
+                {
+                    case 1:
+                        if (dob.Day <= 20)
+                        {
+                            return "Capricorn";
+                        }
+                        else
+                            return "Aquarius";
+                    // break;
+                    case 2:
+                        if (dob.Day <= 18)
+                        {
+                            return "Aquariys";
+
+                        }
+                        else
+                            return "Piseces";
+                    default: return "null";
+
+                }
+            }
+        }
+        public bool Birthday
+        {
+            get
+            {
+                if ((dob.Month == DateTime.Today.Month) && (dob.Day == DateTime.Today.Day))
+                {
+                    return true;
+                }
+                else
+                    return false;
+
+            }
+        }
+
+        public string ScreenName
+        {
+            get
+            {
+                string screename;
+                screename = firstName.Substring(0, 4) + dob.Month.ToString();
+                return screename;
+            }
+        }
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                string fname, lname, email, dob;
+                Console.WriteLine("Enter the first name");
+                fname = Console.ReadLine();
+                Console.WriteLine("Enter the lasr name");
+                lname = Console.ReadLine();
+                Console.WriteLine("Enter the email address");
+                email = Console.ReadLine();
+               Console.WriteLine("Enter the dob");
+                dob = Console.ReadLine();
+                DateTime dt = new DateTime(Convert.ToInt32(dob.Substring(0, 4)), Convert.ToInt32(dob.Substring(4, 2)), (Convert.ToInt32(dob.Substring(6, 2))));
+                Person p1 = new Person(fname, lname, email, dt);
+                Console.WriteLine("The person is adult?:" + p1.Adult);
+                Console.WriteLine("The sunsign:" + p1.SunSign);
+                Console.WriteLine("Today is Birthday?:" + p1.Birthday);
+                Console.WriteLine("The alloted screen name:" + p1.ScreenName);
+                Console.ReadLine();
+
+
+
+
+            }
+        }
+    }
+}

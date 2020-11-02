@@ -1,0 +1,10 @@
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\bin\Debug\File IO Demo.exe.config
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\bin\Debug\File IO Demo.exe
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\bin\Debug\File IO Demo.pdb
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File IO Demo.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File_IO_Demo.Form1.resources
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File_IO_Demo.Properties.Resources.resources
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File IO Demo.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File IO Demo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File IO Demo.exe
+C:\Users\DELL\source\repos\CSharp_Practice_Exercises-2-\File IO Demo\File IO Demo\obj\Debug\File IO Demo.pdb

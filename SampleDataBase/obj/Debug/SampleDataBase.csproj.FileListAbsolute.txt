@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\bin\Debug\Database1.mdf
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\bin\Debug\Database1_log.ldf
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\bin\Debug\SampleDataBase.exe.config
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\bin\Debug\SampleDataBase.exe
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\bin\Debug\SampleDataBase.pdb
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.Form1.resources
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.Properties.Resources.resources
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.exe
+C:\Users\DELL\source\repos\SampleDataBase\SampleDataBase\obj\Debug\SampleDataBase.pdb
